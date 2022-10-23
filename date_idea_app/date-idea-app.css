@@ -8,7 +8,6 @@ hr {
 }
 
 /* NavBar Section */
-.navbar-header {}
 
 .nav-container {
     display: flex;
@@ -48,23 +47,14 @@ hr {
     font-family: sans-serif;
 }
 
-.title {}
-
-.overview {}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1em;
     font-size: 18px;
-
 }
 
-.vision {}
-
-.design {}
-
-.unlist {}
 
 .date-idea-app-img {
     max-width: 40vw;
@@ -76,28 +66,26 @@ hr {
 
 }
 
-.results {}
-
-.features {}
-
-.code-examples {}
-
-.mood-1-img {
+.react-1-img {
     max-width: 70vw;
     height: auto;
 }
 
-.mood-2-img {
+.react-2-img {
     max-width: 70vw;
     height: auto;
 }
 
-.mood-3-img {
+.react-3-img {
+    max-width: 30vw;
+    height: auto;
+}
+
+.react-4-img {
     max-width: 70vw;
     height: auto;
 }
 
-.reflect {}
 
 .foot {
     display: block

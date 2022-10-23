@@ -8,7 +8,6 @@ hr {
 }
 
 /* NavBar Section */
-.navbar-header {}
 
 .nav-container {
     display: flex;
@@ -48,23 +47,12 @@ hr {
     font-family: sans-serif;
 }
 
-.title {}
-
-.overview {}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1em;
     font-size: 18px;
-
 }
-
-.vision {}
-
-.design {}
-
-.unlist {}
 
 .mood-game-img {
     max-width: 40vw;
@@ -73,14 +61,8 @@ hr {
 
 .grid2 {
     font-size: 18px;
-
 }
 
-.results {}
-
-.features {}
-
-.code-examples {}
 
 .mood-1-img {
     max-width: 70vw;
@@ -96,8 +78,6 @@ hr {
     max-width: 70vw;
     height: auto;
 }
-
-.reflect {}
 
 .foot {
     display: block
