@@ -1,0 +1,116 @@
+.body {
+    display: flex;
+}
+
+hr {
+    border: 2px solid #0d6efd;
+    margin-top: 0;
+}
+
+/* NavBar Section */
+.navbar-header {}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, serif;
+}
+
+.title {
+    text-indent: 90px;
+    width: 50vw;
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+.menu {
+    width: 50vw;
+    margin-left: auto;
+}
+
+.navbar-right {
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+.navbar-right-options {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sans-serif;
+}
+
+.title {}
+
+.overview {}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1em;
+    font-size: 18px;
+
+}
+
+.vision {}
+
+.design {}
+
+.unlist {}
+
+.date-idea-app-img {
+    max-width: 40vw;
+    height: auto;
+}
+
+.grid2 {
+    font-size: 18px;
+
+}
+
+.results {}
+
+.features {}
+
+.code-examples {}
+
+.mood-1-img {
+    max-width: 70vw;
+    height: auto;
+}
+
+.mood-2-img {
+    max-width: 70vw;
+    height: auto;
+}
+
+.mood-3-img {
+    max-width: 70vw;
+    height: auto;
+}
+
+.reflect {}
+
+.foot {
+    display: block
+}
+
+.foot-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foot-image {
+    max-width: 25px;
+    height: auto;    
+    padding-left: 4px;
+}
