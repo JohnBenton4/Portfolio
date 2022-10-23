@@ -98,3 +98,22 @@ hr {
 }
 
 .reflect {}
+
+.foot {
+    display: block
+}
+
+.foot-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foot-links {
+    
+}
+.foot-image {
+    max-width: 25px;
+    height: auto;    
+    padding-left: 2px;
+}
