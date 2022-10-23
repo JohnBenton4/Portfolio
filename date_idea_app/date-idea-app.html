@@ -12,66 +12,120 @@
 
 <body>
     <button type="button" class="btn btn-primary btn-md" onclick="history.back()">Back</button>
-    <div class="container">
-        <div class="title">
-            <h1>Sticker United</h1>
-        </div>
-        <div class="overview">
-            <h1>Overview</h1>
-            <div class="vision">
-                <h2>Vision</h2>
-                <p>We set out to build a back-end project that would be the skeleton for an e-commerce website.
-                </p>
+
+    <nav class="navbar-header">
+        <div class="nav-container">
+            <div class="title">John Benton</div>
+            <div class="menu">
+                <ul class="navbar-right">
+                    <li>
+                        <a href="#home" class="navbar-right-options">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navbar-right-options">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="navbar-right-options">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-right-options">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="design">
-                <h2>Design</h2>
-                <p>Design took a back seat in this project as the main objectives were to understand postgreSQL, tables, and bcrypt.
-                    The design we did decide on is reminiscent of the Supreme web store with minimal visual stimulus and wording on the landing page.
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="name">Date Idea App </h1>
+        <hr>
+        <h2 class="overview">Overview</h2>
+        <div class="grid">
+            <div>
+                <h2 class="vision">Vision</h2>
+                <p>We set out to build a front-end project that could be not only entertaining but also fun and
+                    informative.</p>
+                <h2 class="design">Design</h2>
+                <p>An important design factor was to keep the UI simple and give it a basic feel.
+                    The design emphasis is on the information on the page and has an 80's video game feel.
                     A few notes about design:
                 </p>
                 <ul class="unlist">
-                    <li>We settled on a clear landing page with distinct pictures for each category</li>
-                    <li>It was important to choose images that are easily recognizable so the audiences attention would be captured right away.</li>
-                    <li>Lastly regarding design, having examples of the products on the landing page not only lets the user know what they can expect from each category, 
-                        but also presents the most valuable imformation immediately.</li>
-                    <li></li>
+                    <li>Landing page needed to be simple abd easy to understand</li>
+                    <li>The use of theater faces, comedy and tragedy, is an homage to age old entertainment but in a
+                        twenty-first century web app</li>
                 </ul>
-                <p>One of our team members chose to manually create all the CSS from scratch instead of utilizing a framework. 
-                    He wanted extra practice with design and this gave him that opportunity.</p>
+                <p>We used bootstrap due to its flexibility and ease of use. </p>
             </div>
-            <img src="images/react-img.jpeg" alt="sticker united image" class="sticker-united-img" />
-        </div>
-        <div class="results">
-            <h1>Results</h1>
-            <div class="features">
-                <h2>Features</h2>
-                <p>The team was able to create a solid beginning to an e-commerce site. 
-                    Coincidentally, a member of our team actually sells custom stickers as a side hustle. 
-                    Our hope is that he will be able to use this site in the future to break into the market. 
-                    Here are some of the features within our code:</p>
+            <div>
+                <img src="../images/trivia-img.jpeg" alt="mood game image" class="mood-game-img" />
+                <h2 class="logistics">Logistics</h2>
                 <ul>
-                    <li>Login page with credentials protected by bcrypt</li>
-                    <li>Ability to select any sticker as a favorite and add it to your profile</li>
-                    <li>Ability to create an account</li>
-                    <li></li>
-                    <li></li>
+                    <li>Development: June 16 - 25</li>
+                    <li>My roles: Trivia page design, API implementation, project management</li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+        <hr>
+
+        <h2 class="results">Results</h2>
+        <div class="grid2">
+            <div>
+                <h2 class="features">Features</h2>
+                <p>My team created a fun app that successfully utilized two different APIs. Here are some of the
+                    features within our code:</p>
+                <ul>
+                    <li>Added a 'Back' button to return to the landing page from the trivia page or the joke page
+                    </li>
+                    <li>Wrote proper async/await functions to handle the APIs</li>
+                    <li>We were able to randomly sort the answers on the page and let the user know when the correct
+                        answer was selected</li>
                 </ul>
             </div>
-            <div class="code-examples">Code Examples
-                <p>Here are some examples of code in the project.</p>
-            </div>
-            <div class="reflect">Project Reflection
-                <p>The team had a great time working on this project. 
-                    Each person had specific areas of the code they focused on, however, we collaborated through out the project making sure to stay on track and on time.
-                    Communicating early and often proved to be the most valuable strategy during this project. 
-                    Our efficient communication helped us to finish the project in the short time we were alotted.
 
+            <div>
+                <h2 class="code-examples">Code Examples</h2>
+                <p>Here are some examples of my code in the project.</p>
+                <ol>
+                    <li>
+                        <p>We felt it was necessary to use window.onload so the entire page would load before the API is
+                            called.
+                            This allowed smoother page loads and we also had to option to add a 'loading' notification
+                            if we wanted.
+                            The next notable item is the random sort of the correct answer to the API. Doing this
+                            allowed for a more realistic game feel.
+                            <br>
+                            <br>
+                            The second image below shows basic set up of the button element, however, the more
+                            interesting portions of the code begin halfway down the image.
+                            I created a correctButton which held the correct answer. Because the correct answer was
+                            being randomly moved on each new question, the correctButton element had to move with it.
+                            The last part to note is the message alert when the user selects the correct answer. The
+                            alert shows up at the top of the web page.</p>
+                        <img src="mood-1.jpeg" alt="mood 1 image" class="mood-1-img" />
+                        <br>
+                        <br>
+                        <img src="mood-2.jpeg" alt="mood 2 image" class="mood-2-img" />
+                    </li>
+
+                    <li>
+                        <p>Below is our index.html code. We added some fun animation on the landing page and incorporated bootstrap for styling.
+                            There are several APIs on the landing page that are used for the animation.
+                        </p>
+                        <img src="mood-3.jpeg" alt="mood 3 image" class="mood-3-img" />
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h2 class="reflect">Project Reflection</h2>
+                <p>My group worked very well together.
+                    In only a few days, we were able to turn a rough idea into a fully functional game using API
+                    calls. This was my first project as a web developer.
+                    I learned so much not only from a strictly coding stand point, but also in terms of planning,
+                    communication, time management, and expectations.
                 </p>
             </div>
         </div>
     </div>
-
-</div>
 </body>
 
 </html>

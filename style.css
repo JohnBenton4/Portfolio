@@ -9,11 +9,16 @@ body {
 .nav-container {
     display: flex;
     align-items: center;
+    font-family: Georgia, serif;
+
 }
 
 .title {
     text-indent: 90px;
     width: 50vw;
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight: 900;
 }
 
 .menu {
