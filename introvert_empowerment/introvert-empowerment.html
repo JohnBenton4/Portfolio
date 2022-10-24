@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood Game</title>
+    <title>Introvert Empowerment</title>
     <link rel="stylesheet" href="introvert-empowerment.css">
- 
+
 </head>
 
 <body>
@@ -35,36 +35,39 @@
         </div>
     </nav>
     <div class="container">
-        <h1 class="name">Date Idea App </h1>
+        <h1 class="name">Introvert Empowerment </h1>
         <hr>
         <h2 class="overview">Overview</h2>
         <div class="grid">
             <div>
                 <h2 class="vision">Vision</h2>
-                <p>My goal in this project was to create an app that could be used by people just like me.
-                    I have a hard time thinking of fun date ideas, and even when I do, often times I'm not sure where I
-                    could go to for the date idea I come up with.
-                    This app solves those problems.
+                <p>Our goal with this project was not only to build an amazing app, but
+                    it was also to truly help people who have a legitiment desire to improve a part of their life.
+                    Many introverts, like myself, would love to be a little more outgoing from time to time.
+                    My team build this app to provide ideas on how to do just that.
                 </p>
                 <h2 class="design">Design</h2>
-                <p>A clear and clean UI was important for me on this project. The emphasis is on the functionality.
+                <p>Being our capstone project, we felt it was extremely important to have a presentable UI
+                    along with a functionally top notch back end. We took everything we've learn through out our course
+                    and packed as much of it into this app as we could.
                     A few notes about design:
                 </p>
                 <ul class="unlist">
-                    <li>I wanted the UI to be unassuming (letting the user use it inconspicuously) if they needed to
-                        plan something as a surprise</li>
-                    <li>There are three options to choose from, but only one per submit</li>
-                    <li>After choosing one of the first search options, the other two submit buttons become disabled
-                    </li>
+                    <li>The front end utilizes an ecouraging message of the day which comes from an API</li>
+                    <li>The three main sections for user imporovement consist of,
+                        tasks which he or she can choose from, a task mamnger, and phone notifications</li>
+                    <li>Users can create a profile which they can log in from any device and save information to their
+                        profile</li>
                 </ul>
-                <p>A small amount of bootstrap was used to give the submit buttons a streamlined look. </p>
+                <p>Bootstrap was the main CSS framework used on this project. </p>
             </div>
             <div>
-                <img src="../images/react-img.jpeg" alt="react image" class="date-idea-app-img" />
+                <img src="../images/introvert-empowerment.jpeg" alt="introvert impowerment image"
+                    class="introvert-empowerment-img" />
                 <h2 class="logistics">Logistics</h2>
                 <ul>
-                    <li>Development: September 15 - 27</li>
-                    <li>My roles: This was an individual project, everything you see was done by me.</li>
+                    <li>Development: October 8 - 27</li>
+                    <li>My roles: SQL set up, login credential and bcrypt, API set up, user profile</li>
                 </ul>
                 <p></p>
             </div>
@@ -75,17 +78,15 @@
         <div class="grid2">
             <div>
                 <h2 class="features">Features</h2>
-                <p>I really enjoyed working on this challenging project.
-                    I explored beyond the requirements to create a more technocally complex application.
+                <p>This project was very challenging. We completed all the base requirements and moved on to extra
+                    features that made this app standout.
                     Here are some of the features within our code:</p>
                 <ul>
-                    <li>Discovered what CORS is and found a solution for CORS errors.
+                    <li>API call with a timer to populate only one per 24 hours
                     </li>
-                    <li>Successfully fetched information from an API and then inserted that infomation into a second API
-                        search to get the final results</li>
-                    <li>Disabled submit buttons after another submit button was clicked</li>
-                    <li>Used basic bootstrap to streamline the look if the submit buttons</li>
-                    <li>The use of useEffect</li>
+                    <li>User profiles that are password protected and can hold user saved data</li>
+                    <li>The ability to link your app to your phone to receive text reminders to complete tasks</li>
+                    <li>Establishing a connection between multiple many to many tables for each user</li>
                 </ul>
             </div>
 
@@ -102,9 +103,10 @@
                         <br>
                         <img src="react-1.jpeg" alt="react 1 image" class="react-1-img" />
                         <br>
-                        <p>The next two images are part of one of the first API fetches. 
-                            The TypeList.js image shows the API call based on a type of date 
-                            and the image that shows 'function Type' show how 'type' is used to fill in the information for the API call.
+                        <p>The next two images are part of one of the first API fetches.
+                            The TypeList.js image shows the API call based on a type of date
+                            and the image that shows 'function Type' show how 'type' is used to fill in the information
+                            for the API call.
                         </p>
                         <br>
                         <img src="react-2.jpeg" alt="react 2 image" class="react-2-img" />
@@ -113,9 +115,12 @@
                     </li>
 
                     <li>
-                        <p>Below is an image of the second API call which finds a location for the date idea that the user chooses.
-                            The string that was found from the first API is automatically inserted into the second API without any human intervention from the user.
-                            ***********************Additionally, you will see the 'Bearer Id' has been hidden for privacy purposes.***************************************************
+                        <p>Below is an image of the second API call which finds a location for the date idea that the
+                            user chooses.
+                            The string that was found from the first API is automatically inserted into the second API
+                            without any human intervention from the user.
+                            ***********************Additionally, you will see the 'Bearer Id' has been hidden for
+                            privacy purposes.***************************************************
                         </p>
                         <img src="react-4.jpeg" alt="react 4 image" class="react-4-img" />
                     </li>
@@ -123,11 +128,15 @@
             </div>
             <div>
                 <h2 class="reflect">Project Reflection</h2>
-                <p>This was the first project that I worked on by myself. 
-                    It was much easier to formulate a plan a strategy for this project and time management was much less complicated.
-                    There were many moments in the this project where I really had to stretch my mind and search for information in resources.
-                    The most difficult portion was getting the string from the first API fetch to populate in the second API fetch.
-                    I am very pleased with the functional results and look forward to revisiting the project to add a small amount of visual interest.
+                <p>This was the first project that I worked on by myself.
+                    It was much easier to formulate a plan a strategy for this project and time management was much less
+                    complicated.
+                    There were many moments in the this project where I really had to stretch my mind and search for
+                    information in resources.
+                    The most difficult portion was getting the string from the first API fetch to populate in the second
+                    API fetch.
+                    I am very pleased with the functional results and look forward to revisiting the project to add a
+                    small amount of visual interest.
                 </p>
             </div>
         </div>
