@@ -13,7 +13,139 @@
 <body>
     <button type="button" class="btn btn-primary btn-md" onclick="history.back()">Back</button>
 
-</div>
+    <nav class="navbar-header">
+        <div class="nav-container">
+            <div class="title">John Benton</div>
+            <div class="menu">
+                <ul class="navbar-right">
+                    <li>
+                        <a href="#home" class="navbar-right-options">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navbar-right-options">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="navbar-right-options">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-right-options">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="name">Date Idea App </h1>
+        <hr>
+        <h2 class="overview">Overview</h2>
+        <div class="grid">
+            <div>
+                <h2 class="vision">Vision</h2>
+                <p>My goal in this project was to create an app that could be used by people just like me.
+                    I have a hard time thinking of fun date ideas, and even when I do, often times I'm not sure where I
+                    could go to for the date idea I come up with.
+                    This app solves those problems.
+                </p>
+                <h2 class="design">Design</h2>
+                <p>A clear and clean UI was important for me on this project. The emphasis is on the functionality.
+                    A few notes about design:
+                </p>
+                <ul class="unlist">
+                    <li>I wanted the UI to be unassuming (letting the user use it inconspicuously) if they needed to
+                        plan something as a surprise</li>
+                    <li>There are three options to choose from, but only one per submit</li>
+                    <li>After choosing one of the first search options, the other two submit buttons become disabled
+                    </li>
+                </ul>
+                <p>A small amount of bootstrap was used to give the submit buttons a streamlined look. </p>
+            </div>
+            <div>
+                <img src="../images/react-img.jpeg" alt="react image" class="date-idea-app-img" />
+                <h2 class="logistics">Logistics</h2>
+                <ul>
+                    <li>Development: September 15 - 27</li>
+                    <li>My roles: This was an individual project, everything you see was done by me.</li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+        <hr>
+
+        <h2 class="results">Results</h2>
+        <div class="grid2">
+            <div>
+                <h2 class="features">Features</h2>
+                <p>I really enjoyed working on this challenging project.
+                    I explored beyond the requirements to create a more technocally complex application.
+                    Here are some of the features within our code:</p>
+                <ul>
+                    <li>Discovered what CORS is and found a solution for CORS errors.
+                    </li>
+                    <li>Successfully fetched information from an API and then inserted that infomation into a second API
+                        search to get the final results</li>
+                    <li>Disabled submit buttons after another submit button was clicked</li>
+                    <li>Used basic bootstrap to streamline the look if the submit buttons</li>
+                    <li>The use of useEffect</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2 class="code-examples">Code Examples</h2>
+                <p>Here are some examples of my code in the project.</p>
+                <ol>
+                    <li>
+                        <p>The first image of the app.js page shows the use of useEffect in order to deisable buttons
+                            when necessary.
+                            In addition you can see the use of onSet for the diffferent lists.
+                            This portion of the code helped the children to talk to the parent and then back to the
+                            chilren again.</p>
+                        <br>
+                        <img src="react-1.jpeg" alt="react 1 image" class="react-1-img" />
+                        <br>
+                        <p>The next two images are part of one of the first API fetches. 
+                            The TypeList.js image shows the API call based on a type of date 
+                            and the image that shows 'function Type' show how 'type' is used to fill in the information for the API call.
+                        </p>
+                        <br>
+                        <img src="react-2.jpeg" alt="react 2 image" class="react-2-img" />
+                        <img src="react-3.jpeg" alt="react 3 image" class="react-3-img" />
+
+                    </li>
+
+                    <li>
+                        <p>Below is an image of the second API call which finds a location for the date idea that the user chooses.
+                            The string that was found from the first API is automatically inserted into the second API without any human intervention from the user.
+                            ***********************Additionally, you will see the 'Bearer Id' has been hidden for privacy purposes.***************************************************
+                        </p>
+                        <img src="react-4.jpeg" alt="react 4 image" class="react-4-img" />
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h2 class="reflect">Project Reflection</h2>
+                <p>This was the first project that I worked on by myself. 
+                    It was much easier to formulate a plan a strategy for this project and time management was much less complicated.
+                    There were many moments in the this project where I really had to stretch my mind and search for information in resources.
+                    The most difficult portion was getting the string from the first API fetch to populate in the second API fetch.
+                    I am very pleased with the functional results and look forward to revisiting the project to add a small amount of visual interest.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <div class="foot-container">
+            <a class="foot-links" href="mailto:jtbentoniv@gmail.com">
+                <img class="foot-image" src="../images/email.png" alt="linkedIn">
+            </a>
+            <a class="foot-links" href="https://www.linkedin.com/in/john-benton/">
+                <img class="foot-image" src="../images/linkedIn.png" alt="linkedIn">
+            </a>
+            <a class="foot-links" href="https://github.com/JohnBenton4">
+                <img class="foot-image" src="../images/github.png" alt="linkedIn">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
