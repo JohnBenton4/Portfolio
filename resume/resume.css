@@ -13,7 +13,8 @@ body {
     font-family: Georgia, serif;
 }
 
-.title {
+.home {
+    color: black;
     text-indent: 90px;
     width: 50vw;
     font-size: 36px;
