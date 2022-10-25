@@ -1,5 +1,5 @@
-.body {
-    display: flex;
+body {
+    background-color: rgb(228, 228, 228);
 }
 
 hr {
@@ -66,25 +66,22 @@ hr {
 
 }
 
-.react-1-img {
+.introvert-1-img {
     max-width: 70vw;
     height: auto;
 }
 
-.react-2-img {
+.introvert-2-img {
     max-width: 70vw;
     height: auto;
 }
 
-.react-3-img {
+.introvert-3-img {
     max-width: 30vw;
     height: auto;
 }
 
-.react-4-img {
-    max-width: 70vw;
-    height: auto;
-}
+
 
 
 .foot {
