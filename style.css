@@ -55,11 +55,12 @@ body {
 
 .welcome {
     padding: 5px;
-    font-size: 36px;
+    font-size: 50px;
 }
 
 .greeting {
     padding: 5px;
+    font-size: 28px;
 }
 
 .instruction {

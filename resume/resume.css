@@ -6,13 +6,7 @@ body {
     margin: 5px;
 }
 
-hr {
-    border: 2px solid #0d6efd;
-    margin-top: 0;
-}
-
 /* NavBar Section */
-
 .nav-container {
     display: flex;
     align-items: center;
@@ -29,7 +23,6 @@ hr {
 
 .menu {
     width: 50vw;
-    margin-left: auto;
 }
 
 .navbar-right {
@@ -45,45 +38,42 @@ hr {
 }
 
 
-.container {
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: sans-serif;
-
+/* Main Top*/
+.main {
+    display: block;
 }
 
-.grid {
+.container {
+    padding: 1rem;
+}
+
+.top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 1em;
-    font-size: 18px;
 }
 
-.mood-game-img {
-    max-width: 40vw;
-    height: auto;
+.underline {
+    text-decoration: underline gold;
 }
 
-.grid2 {
-    font-size: 18px;
+.skills img {
+    max-height: 120px;
+    width: auto;
+    padding: 7px;
+}
+
+/* Main Bottom */
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+h3 {
+    text-decoration: none;
 }
 
 
-.mood-1-img {
-    max-width: 70vw;
-    height: auto;
-}
-
-.mood-2-img {
-    max-width: 70vw;
-    height: auto;
-}
-
-.mood-3-img {
-    max-width: 70vw;
-    height: auto;
-}
-
+/* Footer */
 .foot {
     display: block
 }
