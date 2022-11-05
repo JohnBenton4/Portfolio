@@ -5,7 +5,7 @@ John Benton
 <h2 align="center">Welcome to my Portfolio</h2>   
 
 <p>
-Introvert Empowerment was built for those of us in the world who know ourself as an introvert but would like to be more outgoing from time to time. Users can access many features including: challenges, a task manager, pickup lines, and more that can help embolden and give confidence. Another encouraging feature of Intrivert Empowerment is the 'Message of the Day' on its landing page. This message is pulled from an API that provides uplifting quotes to start the users' day off right.
+Introvert Empowerment was built for those of us in the world who know ourself as an introvert but would like to be more outgoing from time to time. Users can access many features including: challenges, a task manager, pickup lines, and more that can help embolden and give confidence. Another encouraging feature of Introvert Empowerment is the 'Message of the Day' on its landing page. This message is pulled from an API that provides uplifting quotes to start the users' day off right.
 </p>
 
 
