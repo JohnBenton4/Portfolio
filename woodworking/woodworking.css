@@ -58,62 +58,39 @@ hr {
 }
 
 .p-bench {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
-
-/* .bench {
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
-  } */
-
-  .mantel {
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(0, 123, 255, 0.2);
-  }
-
-  /* .bench {
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(0, 123, 255, 0.2);
-  }
-
-  .bench {
-    padding: 0.75rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(0, 123, 255, 0.2);
-  } */
 
 .bench-top-img {
   max-width: 45vw;
+  padding: 1%;
 }
 
 .bench-joinery-img {
   max-width: 45vw;
+  padding: 1%;
 }
 
-/* .grid-mantel {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: auto;
-  font-size: 16px;
-} */
+.p-mantel {
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+}
 
 .mantel-full-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
 .mantel-detail-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
 .mantel-side-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
 .grid-coat {
