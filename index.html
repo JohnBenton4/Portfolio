@@ -1,172 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Benton</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <title>John Benton</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" />
-</head>
+  <body>
+    <!--NavBar Section-->
 
-<body>
-  <div class="page"> 
-  <!--NavBar Section-->
-  <nav class="navbar-header">
-    <div class="nav-container">
-      <a href="./" class="home">John Benton</a>
-      <div class="menu">
-        <ul class="navbar-right">
-          <li>
-            <a href="#home" class="navbar-right-options">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="navbar-right-options">About</a>
-          </li>
-          <li>
-            <a href="#projects" class="navbar-right-options">Projects</a>
-          </li>
-          <li>
-            <a href="resume/resume.html" class="navbar-right-options">Resumé</a>
-          </li>
-          <li>
-            <a href="woodworking/woodworking.html" class="navbar-right-options">Woodworking</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <main class="main">
-    <!-- Home Section -->
-    <section id="home" class="common-theme">
-      <div class="home-container">
-        <div class="home-row">
-          <img src="images/Art.jpeg" alt="home image" class="home-img" />
-          <div class="home-info">
-            <h2 class="welcome">Welcome To My Portfolio</h2>
-            <h1 class="greeting">Hello, I'm John</h1>
-            <p class="instruction">
-              Please feel free to scroll through my portfolio to find out a little bit more about me and
-              projects I've recently completed.
-              <br>
-              <br>
-
-              Thanks for stopping by.
-            </p>
-          </div>
+    <nav class="navbar navbar-expand-md">
+      <div class="nav-container">
+        <a href="./" class="home">John Benton</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-right">
+            <li>
+              <a href="#home" class="navbar-right-options">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-right-options">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="navbar-right-options">Projects</a>
+            </li>
+            <li>
+              <a href="resume/resume.html" class="navbar-right-options"
+                >Resumé</a
+              >
+            </li>
+            <li>
+              <a
+                href="woodworking/woodworking.html"
+                class="navbar-right-options"
+                >Woodworking</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
 
-    <!-- About Section -->
-    <section id="about" class="common-theme">
-      <!-- <div class="about-container"> -->
-      <div class="about-row">
-        <div class="about-info">
-          <h1 class="about-me">About Me
-          </h1>
-          <p class="about-me-text">
-            I'm a musician working in the finance sector turned full stack web developer.
-            DigitalCrafts' flex program allowed me to support my family and hone a new life-changing skill.
-            I've learned how to take an original idea and turn it into a full-stack web page.
-            <br>
-            <br>
-            My dream is to build beautiful websites and apps that help people solve problems.
-            I believe I can have a positive global impact with the my knowledge and skills, and
-            I am extremely excited for the opportunities that await me in the near future.
-            <br>
-            <br>
-            If I'm not behind the computer, you can find me spending quality time with my family,
-            building a woodworking project in my shop,
-            or traveling to an exciting city to experience delicious food and breathtaking scenery.
+    <!-- Home Section -->
+
+    <div class="container-fluid first">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/Art.jpeg" alt="home image" class="home-img" />
+        </div>
+        <div class="col-md-6 welcome-banner">
+          <h2 class="welcome">Welcome To My Portfolio</h2>
+          <h4 class="greeting">Hello, I'm John</h4>
+          <p class="introduction">
+            Please feel free to scroll through my portfolio to find out a little
+            bit more about me and projects I've recently completed. Thanks for
+            stopping by.
           </p>
         </div>
-        <div class="image-skills">
-          <img src="images/JohnB.jpeg" alt="about image" class="about-img" />
-          <div class="skills">
-            <h1 class="title-skills">My Skills</h4>
-              <h4 class="name-skills">
-                <ul>
-                  <li class="ind-skills">JavaScript</li>
-                  <li class="ind-skills">Git/GitHub</li>
-                  <li class="ind-skills">Postgres</li>
-                  <li class="ind-skills">Node.js</li>
-                  <li class="ind-skills">React</li>
-                  <li class="ind-skills">SQL</li>
-                  <li class="ind-skills">HTML</li>
-                  <li class="ind-skills">CSS</li>
-                </ul>
+      </div>
+    </div>
 
-              </h4>
-          </div>
+    <!-- About Section -->
+    <div class="container-fluid about">
+      <div class="row">
+        <div class="col-lg-4 about-info">
+          <h1 class="about-me">About Me</h1>
+          <p class="about-me-text">
+            I'm a developer with a background in music. My dream is to build
+            beautiful websites to help people solve problems. I believe I can
+            have a positive global impact, and I am extremely excited for the
+            opportunities that await me in the near future.
+            <br />
+            <br />
+            If I'm not behind the computer, you can find me spending quality
+            time with my family, building a piece of bespoke furniture, or
+            traveling the world to experience delicious food and breathtaking
+            scenery.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <img src="images/JohnB.jpeg" alt="about image" class="about-img" />
+        </div>
+        <div class="col-lg-4 col-md-6 skills">
+          <h1 class="title-skills">My Skills</h1>
+          <ul>
+            <li class="ind-skills">JavaScript</li>
+            <li class="ind-skills">Git/GitHub</li>
+            <li class="ind-skills">Postgres</li>
+            <li class="ind-skills">Node.js</li>
+            <li class="ind-skills">React</li>
+            <li class="ind-skills">SQL</li>
+            <li class="ind-skills">HTML</li>
+            <li class="ind-skills">CSS</li>
+          </ul>
         </div>
       </div>
-      <!-- </div> -->
-    </section>
+    </div>
 
     <!-- Project Section -->
-    <section id="projects" class="common-theme">
-      <!-- <div class="projects-container"> -->
-      <div class="projects-row">
-        <img src="images/coding.jpeg" alt="projects image" class="projects-img" />
-        <div class="projects-info">
-          <h1 class="projects-portfolio">Notable Projects:</h4>
-            <!-- <h1 class="greeting">Hello, I'm John</h1> -->
-            <p class="projects-finished">
-              Below you will find my most important projects. Select any of them to find out more details.
-              <br> <br>
-              This work includes examples of multiple coding languages and
-              were created from a backbone of successful collaboration and determination.
-            </p>
+
+    <div class="container-fluid project">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="images/coding.jpeg"
+            alt="projects image"
+            class="projects-img"
+          />
+        </div>
+        <div class="col-md-6 notable">
+          <h1 class="projects-portfolio">Notable Projects:</h1>
+          <p class="projects-finished">
+            Below you will find my most important projects. Select any of them
+            to find out more details.
+            <br />
+            <br />
+            This work includes examples of multiple coding languages and were
+            created from a backbone of successful collaboration and
+            determination.
+          </p>
         </div>
       </div>
-      <!-- </div> -->
-    </section>
+    </div>
+
 
     <!-- My Work -->
-    <section class="work-theme">
+    <!-- <section class="work-theme">
       <div class="my-work-container">
         <div class="my-work-row1">
           <div class="container1">
             <div class="mood-game">Mood Games</div>
             <a href="mood_game/mood-game.html" class="mood-link">
-              <img src="images/mood-game.jpeg" alt="mood game image" class="mood-game-img" /></a>
+              <img
+                src="images/mood-game.jpeg"
+                alt="mood game image"
+                class="mood-game-img"
+            /></a>
           </div>
           <div class="container2">
             <div class="date-idea-app">Date Idea App</div>
             <a href="date_idea_app/date-idea-app.html" class="date-link">
-              <img src="images/react-img.jpeg" alt="react image" class="date-idea-app-img" /></a>
+              <img
+                src="images/react-img.jpeg"
+                alt="react image"
+                class="date-idea-app-img"
+            /></a>
           </div>
         </div>
-        <br>
-        <br>
+        <br />
+        <br />
         <div class="my-work-row2">
           <div class="introvert-empowerment">Introvert Empowerment</div>
-          <a href="introvert_empowerment/introvert-empowerment.html" class="introvert-link">
-            <img src="images/homepage.jpeg" alt="introvert-empowerment image" class="introvert-empowerment-img" /></a>
+          <a
+            href="introvert_empowerment/introvert-empowerment.html"
+            class="introvert-link"
+          >
+            <img
+              src="images/homepage.jpeg"
+              alt="introvert-empowerment image"
+              class="introvert-empowerment-img"
+          /></a>
         </div>
       </div>
     </section>
-  </main>
-  <br>
+    <br /> -->
 
-  <!-- Footer -->
-  <footer class="foot">
-    <div class="foot-container">
-      <a class="foot-links" href="mailto:jtbentoniv@gmail.com">
-        <img class="foot-image" src="images/email.png" alt="linkedIn">
-      </a>
-      <a class="foot-links" href="https://www.linkedin.com/in/john-benton/">
-        <img class="foot-image" src="images/linkedIn.png" alt="linkedIn">
-      </a>
-      <a class="foot-links" href="https://github.com/JohnBenton4">
-        <img class="foot-image" src="images/github.png" alt="linkedIn">
-      </a>
-    </div>
-  </footer>
-</div>
-</body>
-
-</html
+    <!-- Footer -->
+    <!-- <footer class="foot">
+      <div class="foot-container">
+        <a class="foot-links" href="mailto:jtbentoniv@gmail.com">
+          <img class="foot-image" src="images/email.png" alt="linkedIn" />
+        </a>
+        <a class="foot-links" href="https://www.linkedin.com/in/john-benton/">
+          <img class="foot-image" src="images/linkedIn.png" alt="linkedIn" />
+        </a>
+        <a class="foot-links" href="https://github.com/JohnBenton4">
+          <img class="foot-image" src="images/github.png" alt="linkedIn" />
+        </a>
+      </div>
+    </footer> -->
+  </body>
+</html>

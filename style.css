@@ -1,11 +1,13 @@
 body {
-  background-color: rgb(204, 248, 255);
+  background-color: rgb(228, 228, 228);
 }
 
 /* NavBar Section */
 .nav-container {
   display: flex;
   align-items: center;
+  font-family: Georgia, serif;
+
 }
 
 .home {
@@ -15,19 +17,11 @@ body {
   font-size: 36px;
   font-variant: small-caps;
   font-weight: 900;
-  font-family: Georgia, serif;
-}
-
-.menu {
-  width: 50vw;
-  padding-right: 60px;
-  padding-top: 10px;
 }
 
 .navbar-right {
   display: flex;
   list-style-type: none;
-  float: right;
 }
 
 .navbar-right-options {
@@ -36,53 +30,48 @@ body {
   text-decoration: none;
 }
 
-.main {
-  max-width: 1600px;
+/* Home Section */
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Home Section */
-.home-row {
+.col-md-6 {
+  max-width: 50vw;
   height: auto;
-  display: flex;
+}
+.welcome-banner {
+  background-color: rgb(120, 167, 183);
+  color: rgb(0, 0, 0);
+  padding: 5%;
+  /* margin: auto; */
 }
 
 .home-img {
-  width: 50%;
-}
-
-.home-info {
-  width: 50%;
-  padding: 10px;
-  background-color: rgb(138, 103, 149);
-  color: white;
+  max-width: 100%;
+  padding: 1%;
 }
 
 .welcome {
-  padding: 5px;
-  font-size: 50px;
+  max-width: 30vw;
 }
 
 .greeting {
-  padding: 5px;
-  font-size: 28px;
+  padding: 2px;
 }
 
-.instruction {
-  padding: 5px;
+.introduction {
+  padding: 2px;
 }
 
 /* About Section */
-.about-row {
-  height: 360px;
-  display: flex;
+.about-info {
+  padding: 10px;
+  background-color: rgb(212, 161, 161);
+  color: rgb(0, 0, 0);
 }
 
-.about-info {
-  width: 50%;
-  padding: 10px;
-  background-color: rgb(109, 53, 68);
-  color: white;
-}
 
 .image-skills {
   width: 50%;
@@ -90,33 +79,28 @@ body {
 }
 
 .about-img {
-  /* max-width: 50%; */
-  width: 50vw;
+  max-width: 100%;
 }
 
 .skills {
   padding: 10px;
-  background-color: rgba(43, 23, 23, 0.92);
-  width: 50vw;
-  color: white;
+  background-color: rgba(142, 142, 142, 0.92);
+  color: rgb(0, 0, 0);
 }
 
 .ind-skills {
   padding-bottom: 5px;
+  font-size: 18px;
 }
 
 /* Project Section */
 
-.projects-row {
-  height: 320px;
-  display: flex;
-}
-
 .projects-img {
-  width: 50%;
+/* padding: 5px; */
+max-width: 48vw;
 }
 
-.projects-info {
+.notable {
   width: 50%;
   background-color: rgb(115, 112, 32);
   color: white;
@@ -191,57 +175,4 @@ body {
   max-width: 25px;
   height: auto;
   padding-left: 4px;
-}
-
-/* Media */
-@media only screen and (max-width: 360px) {
-  .body {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media only screen and (min-width: 360px) {
-  .body {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .body {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .home-img {
-    display: none;
-  }
-  .projects-img {
-    display: none;
-  }
-  .about-info {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .image-skills {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .about-me-text {
-    font-size: 8px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .about-img {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .body {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-[class*="col-"] {
-  width: 100%;
 }
