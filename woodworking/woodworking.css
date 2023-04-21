@@ -11,6 +11,10 @@ hr {
   margin-top: 0;
 }
 
+h3 {
+      font-family: Georgia, serif;
+}
+
 /* NavBar Section */
 
 .nav-container {
@@ -26,11 +30,6 @@ hr {
   font-size: 36px;
   font-variant: small-caps;
   font-weight: 900;
-}
-
-.menu {
-  width: 50vw;
-  margin-left: auto;
 }
 
 .navbar-right {
@@ -61,21 +60,25 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  font-family: Georgia, serif;
 }
 
 .bench-top-img {
-  max-width: 45vw;
+  max-width: 30vw;
   padding: 1%;
+  margin-left: 10vw;
 }
 
 .bench-joinery-img {
-  max-width: 45vw;
+  max-width: 30vw;
   padding: 1%;
+  margin-left: 10vw;
 }
 
 .p-mantel {
   padding: 0.75rem;
   margin-bottom: 1.5rem;
+  font-family: Georgia, serif;
 }
 
 .mantel-full-img {
@@ -93,36 +96,32 @@ hr {
   padding: 1%;
 }
 
-.grid-coat {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: auto;
-  font-size: 16px;
-}
+.p-coat {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+  }
 
 .coat-full-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
 .coat-detail-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
 .coat-hook-img {
-  max-width: 35vw;
-  height: auto;
+  max-width: 32vw;
+  padding: 1%;
 }
 
-.grid-clock {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: auto;
-  font-size: 16px;
+.p-clock {
+
 }
 
 .clock-img {
   max-width: 35vw;
-  height: auto;
+  padding: 1%;
 }
