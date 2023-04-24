@@ -1,15 +1,21 @@
 body {
   background-color: rgb(228, 228, 228);
 }
+.col-md-12 {
+  max-width: 50vw;
+  height: auto;
+}
+.col-md-12 {
+  display: flex;
+  justify-content: center;
+}
 
 /* NavBar Section */
 .nav-container {
   display: flex;
   align-items: center;
   font-family: Georgia, serif;
-
 }
-
 .home {
   color: black;
   text-indent: 90px;
@@ -18,12 +24,10 @@ body {
   font-variant: small-caps;
   font-weight: 900;
 }
-
 .navbar-right {
   display: flex;
   list-style-type: none;
 }
-
 .navbar-right-options {
   padding: 10px;
   color: black;
@@ -36,31 +40,21 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.col-md-6 {
-  max-width: 50vw;
-  height: auto;
-}
 .welcome-banner {
   background-color: rgb(120, 167, 183);
   color: rgb(0, 0, 0);
   padding: 5%;
-  /* margin: auto; */
 }
-
 .home-img {
   max-width: 100%;
   padding: 1%;
 }
-
 .welcome {
   max-width: 30vw;
 }
-
 .greeting {
   padding: 2px;
 }
-
 .introduction {
   padding: 2px;
 }
@@ -71,106 +65,92 @@ body {
   background-color: rgb(212, 161, 161);
   color: rgb(0, 0, 0);
 }
-
-
-.image-skills {
-  width: 50%;
+.img {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .about-img {
-  max-width: 100%;
+  max-height: 340px;
 }
-
 .skills {
   padding: 10px;
   background-color: rgba(142, 142, 142, 0.92);
   color: rgb(0, 0, 0);
+  max-height: 425px;
+  max-width: 450px;
 }
-
 .ind-skills {
   padding-bottom: 5px;
   font-size: 18px;
 }
 
 /* Project Section */
-
+.project-row {
+margin-top: 1%;}
 .projects-img {
-/* padding: 5px; */
-max-width: 48vw;
+  max-width: 48vw;
 }
-
+.pic {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
 .notable {
   width: 50%;
   background-color: rgb(115, 112, 32);
   color: white;
-  padding:10px
+  padding: 1%;
 }
-
 .projects-portfolio {
   padding: 5px;
   margin: 5px;
 }
-
 .projects-finished {
   padding: 10px;
 }
 
 /* My Work */
-.my-work-row1 {
+.row {
   display: flex;
+  justify-content: center;
 }
-
-.container1 {
-  align-items: center;
-}
-
 .mood-game {
   text-align: center;
-  padding: 2px;
+  padding: 5%;
 }
-
 .mood-game-img {
-  width: 50vw;
-  margin-top: 7%;
-}
-
-.container2 {
+  width: 90vw;
   padding: 2px;
+  max-width: 1000px;
 }
-
 .date-idea-app {
   text-align: center;
+  padding: 5%;
 }
-
 .date-idea-app-img {
-  width: 50vw;
+  width: 90vw;
   padding: 2px;
-  margin-top: 10%;
+  max-width: 1000px;
 }
-
 .introvert-empowerment {
   text-align: center;
+  padding: 5%;
 }
-
 .introvert-empowerment-img {
-  width: 50vw;
+  width: 90vw;
   padding: 2px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1000px;
 }
 
 /* Footer */
 .foot {
   display: block;
 }
-
 .foot-container {
   display: flex;
   justify-content: center;
 }
-
 .foot-image {
   max-width: 25px;
   height: auto;
