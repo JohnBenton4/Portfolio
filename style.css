@@ -1,17 +1,18 @@
 body {
   background-color: rgb(228, 228, 228);
+width: auto;
 }
 .col-md-12 {
   max-width: 50vw;
   height: auto;
-}
-.col-md-12 {
-  display: flex;
+   display: flex;
   justify-content: center;
 }
 
 /* NavBar Section */
 .nav-container {
+  width: auto;
+
   display: flex;
   align-items: center;
   font-family: Georgia, serif;
@@ -36,27 +37,34 @@ body {
 
 /* Home Section */
 .container-fluid {
-  width: 100%;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
 .welcome-banner {
   background-color: rgb(120, 167, 183);
   color: rgb(0, 0, 0);
-  padding: 5%;
+  padding: 1%;
 }
 .home-img {
   max-width: 100%;
-  padding: 1%;
 }
 .welcome {
-  max-width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
 }
 .greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2px;
 }
 .introduction {
-  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* About Section */
