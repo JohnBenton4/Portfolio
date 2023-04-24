@@ -12,16 +12,17 @@ width: auto;
 /* NavBar Section */
 .nav-container {
   width: auto;
-
   display: flex;
   align-items: center;
   font-family: Georgia, serif;
 }
 .home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   color: black;
-  text-indent: 90px;
   width: 50vw;
-  font-size: 36px;
+  font-size: xxx-large;
   font-variant: small-caps;
   font-weight: 900;
 }
@@ -72,7 +73,7 @@ width: auto;
   padding: 10px;
   background-color: rgb(212, 161, 161);
   color: rgb(0, 0, 0);
-}
+  }
 .img {
   display: flex;
   align-items: center;
