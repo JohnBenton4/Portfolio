@@ -16,6 +16,7 @@ width: auto;
   align-items: center;
   font-family: Georgia, serif;
 }
+
 .home {
   display: flex;
   justify-content: center;
@@ -27,13 +28,18 @@ width: auto;
   font-weight: 900;
 }
 .navbar-right {
-  display: flex;
+  /* display: flex; */
   list-style-type: none;
 }
 .navbar-right-options {
   padding: 10px;
   color: black;
   text-decoration: none;
+}
+.navbar-toggler-icon {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
 }
 
 /* Home Section */
